@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифровые часы</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #282c34;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            font-size: 2em;
+        }
+        #clock {
+            padding: 30px;
+            box-shadow: 3px 2px 3px 2px lime;
+            border: 3px solid #61dafb;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .date {
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+        .time {
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div id="clock">
+        <div class="date" id="date"></div>
+        <div class="time" id="time"></div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
